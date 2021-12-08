@@ -1,0 +1,43 @@
+.container-xl.header {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 100px;
+    padding-bottom: 25px;
+}
+th a {
+    color: white;
+}
+th a:hover {
+    color: #e9ecef;
+}
+th.text-cell {
+    width: 450px;
+}
+th.status-cell {
+    width: 150px;
+}
+td.text-cell {
+    word-break: break-all;
+}
+body > div.container-lg.add-form form{
+    display: flex;
+    flex-direction: column;
+}
+.btn.btn-primary.form-btn {
+    align-self: flex-end;
+}
+@media (min-width: 550px){
+    body > div.container-lg.add-form {
+        width: 500px;
+    }
+}
+ul.pagination > li > a {
+    position: relative;
+    display: block;
+    padding: .5rem .75rem;
+    margin-left: -1px;
+    line-height: 1.25;
+    color: #007bff;
+    background-color: #fff;
+    border: 1px solid #dee2e6;
+}
